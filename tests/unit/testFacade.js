@@ -131,13 +131,11 @@ describe('root', function () {
       expect(list.nodes[0]).to.equal(node2);
       expect(list2.nodes).to.have.length(1);
       expect(list2.nodes[0]).to.equal(node1);
-      expect($.decorators[0].root.moveNode).to.have.been.calledOnce;
-      expect($.decorators[1].root.moveNode).to.have.been.calledOnce;
+      expect(node1.parentList).to.equal(list2);
+      expect(node1.index).to.equal(0);
 
-      // TODO: Work out how to match args of the moveNode call
-//      console.log($.decorators[0].root.moveNode.getCall(0).args[2]);
-//      expect($.decorators[0].root.moveNode.getCall(0).args[0]).to.eql([node1, list, 0, list2, 0]);
-//      expect($.decorators[1].root.moveNode.getCall(0).args[0]).to.eql([node1, list, 0, list2, 0]);
+      expect($.decorators[0].root.moveNode).to.have.been.calledOnce.and.calledWith(sinon.match([node1, list, 0, list2, 0]));
+      expect($.decorators[1].root.moveNode).to.have.been.calledOnce.and.calledWith(sinon.match([node1, list, 0, list2, 0]));
     });
   });
   describe('#addDecorator', function () {
@@ -174,6 +172,7 @@ describe('nodeList', function () {
       expect(list.nodes[0]).to.equal(node);
       expect(node.parentList).to.equal(list);
       expect(node.root).to.equal(facade);
+      expect(node.index).to.equal(0);
 
       expect($.decorators[0].nodeList.addNode).to.have.been.calledOnce.and.calledWith(node);
       expect($.decorators[0].node.init).to.have.been.calledOnce.and.calledWith(node);
