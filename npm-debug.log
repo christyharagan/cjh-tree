@@ -1,0 +1,140 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.3.24
+3 info using node@v0.10.25
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/christy/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/q_/1t8j4k_d06nf0rvpdw6yz2f40000gn/T/npm-39498-e4zzNOvF/1402156745367-0.29614855791442096/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/q_/1t8j4k_d06nf0rvpdw6yz2f40000gn/T/npm-39498-e4zzNOvF/1402156745367-0.29614855791442096/tmp.tgz
+12 verbose folder .
+13 info prepublish cjh-tree@0.0.1
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/christy/.npm/1f1177db-tar.lock
+16 silly lockFile c5556f96-5367-0-29614855791442096-tmp-tgz tar:///var/folders/q_/1t8j4k_d06nf0rvpdw6yz2f40000gn/T/npm-39498-e4zzNOvF/1402156745367-0.29614855791442096/tmp.tgz
+17 verbose lock tar:///var/folders/q_/1t8j4k_d06nf0rvpdw6yz2f40000gn/T/npm-39498-e4zzNOvF/1402156745367-0.29614855791442096/tmp.tgz /Users/christy/.npm/c5556f96-5367-0-29614855791442096-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile c5556f96-5367-0-29614855791442096-tmp-tgz tar:///var/folders/q_/1t8j4k_d06nf0rvpdw6yz2f40000gn/T/npm-39498-e4zzNOvF/1402156745367-0.29614855791442096/tmp.tgz
+21 silly lockFile c5556f96-5367-0-29614855791442096-tmp-tgz tar:///var/folders/q_/1t8j4k_d06nf0rvpdw6yz2f40000gn/T/npm-39498-e4zzNOvF/1402156745367-0.29614855791442096/tmp.tgz
+22 verbose tar unpack /var/folders/q_/1t8j4k_d06nf0rvpdw6yz2f40000gn/T/npm-39498-e4zzNOvF/1402156745367-0.29614855791442096/tmp.tgz
+23 silly lockFile 29c4fd20-5367-0-29614855791442096-package tar:///var/folders/q_/1t8j4k_d06nf0rvpdw6yz2f40000gn/T/npm-39498-e4zzNOvF/1402156745367-0.29614855791442096/package
+24 verbose lock tar:///var/folders/q_/1t8j4k_d06nf0rvpdw6yz2f40000gn/T/npm-39498-e4zzNOvF/1402156745367-0.29614855791442096/package /Users/christy/.npm/29c4fd20-5367-0-29614855791442096-package.lock
+25 silly lockFile c5556f96-5367-0-29614855791442096-tmp-tgz tar:///var/folders/q_/1t8j4k_d06nf0rvpdw6yz2f40000gn/T/npm-39498-e4zzNOvF/1402156745367-0.29614855791442096/tmp.tgz
+26 verbose lock tar:///var/folders/q_/1t8j4k_d06nf0rvpdw6yz2f40000gn/T/npm-39498-e4zzNOvF/1402156745367-0.29614855791442096/tmp.tgz /Users/christy/.npm/c5556f96-5367-0-29614855791442096-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm extractEntry README.md
+31 silly gunzTarPerm extractEntry LICENSE
+32 silly gunzTarPerm extractEntry .gitattributes
+33 silly gunzTarPerm extractEntry .jshintrc
+34 silly gunzTarPerm extractEntry lib/facade.js
+35 silly gunzTarPerm extractEntry lib/index.js
+36 silly gunzTarPerm extractEntry tests/unit/testFacade.js
+37 silly lockFile 29c4fd20-5367-0-29614855791442096-package tar:///var/folders/q_/1t8j4k_d06nf0rvpdw6yz2f40000gn/T/npm-39498-e4zzNOvF/1402156745367-0.29614855791442096/package
+38 silly lockFile 29c4fd20-5367-0-29614855791442096-package tar:///var/folders/q_/1t8j4k_d06nf0rvpdw6yz2f40000gn/T/npm-39498-e4zzNOvF/1402156745367-0.29614855791442096/package
+39 silly lockFile c5556f96-5367-0-29614855791442096-tmp-tgz tar:///var/folders/q_/1t8j4k_d06nf0rvpdw6yz2f40000gn/T/npm-39498-e4zzNOvF/1402156745367-0.29614855791442096/tmp.tgz
+40 silly lockFile c5556f96-5367-0-29614855791442096-tmp-tgz tar:///var/folders/q_/1t8j4k_d06nf0rvpdw6yz2f40000gn/T/npm-39498-e4zzNOvF/1402156745367-0.29614855791442096/tmp.tgz
+41 verbose tar pack [ '/Users/christy/.npm/cjh-tree/0.0.1/package.tgz',
+41 verbose tar pack   '/var/folders/q_/1t8j4k_d06nf0rvpdw6yz2f40000gn/T/npm-39498-e4zzNOvF/1402156745367-0.29614855791442096/package' ]
+42 verbose tarball /Users/christy/.npm/cjh-tree/0.0.1/package.tgz
+43 verbose folder /var/folders/q_/1t8j4k_d06nf0rvpdw6yz2f40000gn/T/npm-39498-e4zzNOvF/1402156745367-0.29614855791442096/package
+44 silly lockFile 29c4fd20-5367-0-29614855791442096-package tar:///var/folders/q_/1t8j4k_d06nf0rvpdw6yz2f40000gn/T/npm-39498-e4zzNOvF/1402156745367-0.29614855791442096/package
+45 verbose lock tar:///var/folders/q_/1t8j4k_d06nf0rvpdw6yz2f40000gn/T/npm-39498-e4zzNOvF/1402156745367-0.29614855791442096/package /Users/christy/.npm/29c4fd20-5367-0-29614855791442096-package.lock
+46 silly lockFile f5130c33-y-npm-cjh-tree-0-0-1-package-tgz tar:///Users/christy/.npm/cjh-tree/0.0.1/package.tgz
+47 verbose lock tar:///Users/christy/.npm/cjh-tree/0.0.1/package.tgz /Users/christy/.npm/f5130c33-y-npm-cjh-tree-0-0-1-package-tgz.lock
+48 silly lockFile 29c4fd20-5367-0-29614855791442096-package tar:///var/folders/q_/1t8j4k_d06nf0rvpdw6yz2f40000gn/T/npm-39498-e4zzNOvF/1402156745367-0.29614855791442096/package
+49 silly lockFile 29c4fd20-5367-0-29614855791442096-package tar:///var/folders/q_/1t8j4k_d06nf0rvpdw6yz2f40000gn/T/npm-39498-e4zzNOvF/1402156745367-0.29614855791442096/package
+50 silly lockFile f5130c33-y-npm-cjh-tree-0-0-1-package-tgz tar:///Users/christy/.npm/cjh-tree/0.0.1/package.tgz
+51 silly lockFile f5130c33-y-npm-cjh-tree-0-0-1-package-tgz tar:///Users/christy/.npm/cjh-tree/0.0.1/package.tgz
+52 silly lockFile f592d8c9-risty-npm-cjh-tree-0-0-1-package /Users/christy/.npm/cjh-tree/0.0.1/package
+53 verbose lock /Users/christy/.npm/cjh-tree/0.0.1/package /Users/christy/.npm/f592d8c9-risty-npm-cjh-tree-0-0-1-package.lock
+54 silly lockFile f592d8c9-risty-npm-cjh-tree-0-0-1-package /Users/christy/.npm/cjh-tree/0.0.1/package
+55 silly lockFile f592d8c9-risty-npm-cjh-tree-0-0-1-package /Users/christy/.npm/cjh-tree/0.0.1/package
+56 verbose tar unpack /Users/christy/.npm/cjh-tree/0.0.1/package.tgz
+57 silly lockFile 5f484b2f-risty-npm-cjh-tree-0-0-1-package tar:///Users/christy/.npm/cjh-tree/0.0.1/package
+58 verbose lock tar:///Users/christy/.npm/cjh-tree/0.0.1/package /Users/christy/.npm/5f484b2f-risty-npm-cjh-tree-0-0-1-package.lock
+59 silly lockFile f5130c33-y-npm-cjh-tree-0-0-1-package-tgz tar:///Users/christy/.npm/cjh-tree/0.0.1/package.tgz
+60 verbose lock tar:///Users/christy/.npm/cjh-tree/0.0.1/package.tgz /Users/christy/.npm/f5130c33-y-npm-cjh-tree-0-0-1-package-tgz.lock
+61 silly gunzTarPerm modes [ '755', '644' ]
+62 silly gunzTarPerm extractEntry package.json
+63 silly gunzTarPerm extractEntry .npmignore
+64 silly gunzTarPerm extractEntry README.md
+65 silly gunzTarPerm extractEntry LICENSE
+66 silly gunzTarPerm extractEntry .gitattributes
+67 silly gunzTarPerm extractEntry .jshintrc
+68 silly gunzTarPerm extractEntry lib/facade.js
+69 silly gunzTarPerm extractEntry lib/index.js
+70 silly gunzTarPerm extractEntry tests/unit/testFacade.js
+71 silly lockFile 5f484b2f-risty-npm-cjh-tree-0-0-1-package tar:///Users/christy/.npm/cjh-tree/0.0.1/package
+72 silly lockFile 5f484b2f-risty-npm-cjh-tree-0-0-1-package tar:///Users/christy/.npm/cjh-tree/0.0.1/package
+73 silly lockFile f5130c33-y-npm-cjh-tree-0-0-1-package-tgz tar:///Users/christy/.npm/cjh-tree/0.0.1/package.tgz
+74 silly lockFile f5130c33-y-npm-cjh-tree-0-0-1-package-tgz tar:///Users/christy/.npm/cjh-tree/0.0.1/package.tgz
+75 verbose chmod /Users/christy/.npm/cjh-tree/0.0.1/package.tgz 644
+76 verbose chown /Users/christy/.npm/cjh-tree/0.0.1/package.tgz [ 501, 20 ]
+77 silly lockFile 3a52ce78- .
+78 silly lockFile 3a52ce78- .
+79 silly publish { name: 'cjh-tree',
+79 silly publish   author: { name: 'Christy Haragan' },
+79 silly publish   version: '0.0.1',
+79 silly publish   dependencies: { underscore: '~1.6.0' },
+79 silly publish   devDependencies:
+79 silly publish    { mocha: '~1.20.0',
+79 silly publish      sinon: '~1.10.2',
+79 silly publish      'sinon-chai': '~2.5.0',
+79 silly publish      chai: '~1.9.1' },
+79 silly publish   engines: { node: '>=0.10.0' },
+79 silly publish   main: './lib/index.js',
+79 silly publish   readme: 'Simple Tree Facade\n=======\n\nA simple javascript tree facade for Node.js and the browser\n',
+79 silly publish   readmeFilename: 'README.md',
+79 silly publish   description: 'Simple Tree Facade =======',
+79 silly publish   _id: 'cjh-tree@0.0.1',
+79 silly publish   dist: { shasum: '08cbd68917cd3a90be0a5fe001046481c71b47aa' },
+79 silly publish   _from: '.' }
+80 verbose url raw cjh-tree
+81 verbose url resolving [ 'https://registry.npmjs.org/', './cjh-tree' ]
+82 verbose url resolved https://registry.npmjs.org/cjh-tree
+83 info trying registry request attempt 1 at 16:59:05
+84 http PUT https://registry.npmjs.org/cjh-tree
+85 http 403 https://registry.npmjs.org/cjh-tree
+86 info trying registry request attempt 1 at 16:59:08
+87 http PUT https://registry.npmjs.org/cjh-tree
+88 http 403 https://registry.npmjs.org/cjh-tree
+89 error publish Failed PUT 403
+90 error Error: forbidden cannot modify pre-existing version: 0.0.1
+90 error old={"name":"cjh-tree","author":{"name":"Christy Haragan"},"version":"0.0.1","dependencies":{"underscore":"~1.6.0"},"devDependencies":{"mocha":"~1.20.0","sinon":"~1.10.2","sinon-chai":"~2.5.0","chai":"~1.9.1"},"engines":{"node":">=0.10.0"},"description":"Simple Tree Facade =======","_id":"cjh-tree@0.0.1","dist":{"shasum":"a417229765c55c0f5886971c4f6947292324b256","tarball":"http://registry.npmjs.org/cjh-tree/-/cjh-tree-0.0.1.tgz"},"_from":".","_npmVersion":"1.3.24","_npmUser":{"name":"christyharagan","email":"christy.haragan.github@gmail.com"},"maintainers":[{"name":"christyharagan","email":"christy.haragan.github@gmail.com"}]}
+90 error new={"name":"cjh-tree","author":{"name":"Christy Haragan"},"version":"0.0.1","dependencies":{"underscore":"~1.6.0"},"devDependencies":{"mocha":"~1.20.0","sinon":"~1.10.2","sinon-chai":"~2.5.0","chai":"~1.9.1"},"engines":{"node":">=0.10.0"},"main":"./lib/index.js","readme":"Simple Tree Facade\u000a=======\u000a\u000aA simple javascript tree facade for Node.js and the browser\u000a","readmeFilename":"README.md","description":"Simple Tree Facade =======","_id":"cjh-tree@0.0.1","dist":{"shasum":"08cbd68917cd3a90be0a5fe001046481c71b47aa","tarball":"http://registry.npmjs.org/cjh-tree/-/cjh-tree-0.0.1.tgz"},"_from":".","_npmVersion":"1.3.24","_npmUser":{"name":"christyharagan","email":"christy.haragan.github@gmail.com"},"maintainers":[{"name":"christyharagan","email":"christy.haragan.github@gmail.com"}]}: cjh-tree
+90 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:275:14)
+90 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+90 error     at Request.EventEmitter.emit (events.js:98:17)
+90 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+90 error     at Request.EventEmitter.emit (events.js:117:20)
+90 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+90 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+90 error     at _stream_readable.js:920:16
+90 error     at process._tickCallback (node.js:415:13)
+91 error If you need help, you may report this *entire* log,
+91 error including the npm and node versions, at:
+91 error     <http://github.com/isaacs/npm/issues>
+92 error System Darwin 13.2.0
+93 error command "node" "/usr/local/bin/npm" "publish"
+94 error cwd /Users/christy/git/cjh/tree
+95 error node -v v0.10.25
+96 error npm -v 1.3.24
+97 verbose exit [ 1, true ]
